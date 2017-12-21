@@ -5,5 +5,5 @@
 
 @section('content')
 <h1>About us</h1>
-<p><a href="/cars">Home page</a></p>
+
 @endsection

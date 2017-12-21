@@ -12,6 +12,4 @@
         <h1>Number of doors:</h1>
         <h2>{{$car->number_of_doors}}</h2>
 
-        <p><a href="/cars">Back to cars</a></p>
-
 @endsection

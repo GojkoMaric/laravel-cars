@@ -1,5 +1,7 @@
 <?php
 
+use \App\Http\Controllers\CarsController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,3 +22,5 @@ Route::get('/', function () {
 Route::get('/about', function(){
     return view('about');
 });
+
+Route::get('/cars', ['as'=>'all-cars', 'uses' => 'CarsController@index']);

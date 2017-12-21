@@ -1,8 +1,9 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <title>About us</title>
-    <body>
-        <h1>About Us</h1>
-    </body>
-</html>
+@extends('layouts.master')
+@section('title')
+    About us
+@endsection
+
+@section('content')
+<h1>About us</h1>
+<p><a href="/cars">Home page</a></p>
+@endsection
